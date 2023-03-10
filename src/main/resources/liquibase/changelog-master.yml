@@ -1,3 +1,7 @@
+#databaseChangeLog:
+#  - includeAll:
+#      path: liquibase/scripts/
+
 databaseChangeLog:
   - includeAll:
       path: liquibase/scripts/
