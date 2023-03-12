@@ -32,7 +32,7 @@ public class TelegramBotUpdatesListener implements UpdatesListener {
     private static String INVALID_CMD = "Invalid command. Please try again";
     private final TelegramBot telegramBot;
     private final NotificationTaskService notificationTaskService;
-//    @Autowired
+    //    @Autowired
 //    private TelegramBot telegramBot;
     public TelegramBotUpdatesListener(TelegramBot telegramBot, NotificationTaskService notificationTaskService) {
         this.telegramBot = telegramBot;
