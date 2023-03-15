@@ -24,7 +24,7 @@ public class NotificationTaskServiceImpl implements NotificationTaskService {
         this.repository = repository;
     }
 
-    private static final String REGEX = "([0-9\\.\\:\\s]{16})(\\s)([\\W+]+)";
+    private static final String REGEX = "([0-9\\.\\:\\s]{16})(\\s)([\\W+]+)"; // Не понятно что за регулярное выражение
     private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm");
 
     @Override
